@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Left section styles */
+.left {
+  width: 100%;
+  max-width: 300px;
+  margin: 1rem;
+  /* background-color: rgb(126, 219, 231); */
+}
+
+.left img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.contacts,
+.skills,
+.languages,
+.hobbies {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contacts h2,
+.skills h2,
+.languages h2,
+.hobbies h2 {
+  margin-top: 0;
+}
+
+.contacts h4,
+.skills li,
+.languages li,
+.hobbies li {
+  margin-bottom: 0.5rem;
+}
+
+/* Right section styles */
+.right {
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem;
+  /* background-color: rgb(162, 202, 206); */
+}
+
+h1,
+h2,
+p,
+li {
+  margin-top: 0;
+}
+
+.summary {
+  margin-bottom: 1rem;
+}
+
+.education table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.education th,
+.education td {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.projects li {
+  margin-bottom: 1rem;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+  .left {
+    margin-right: 2rem;
+  }
+
+  .right {
+    margin-left: 2rem;
+  }
+}
